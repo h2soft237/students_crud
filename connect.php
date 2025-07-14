@@ -5,5 +5,6 @@
 
     if($con===false){
         die("Erreur : La connexion au serveur a rchoue".mysqli_connect_error());
+        echo "my modification";
     }
 ?>
